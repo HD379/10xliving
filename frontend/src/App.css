@@ -1,34 +1,115 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* App-specific styles */
+
+.App {
+  min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+/* Hero section styles */
+.hero-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(45, 62, 54, 0.1) 0%,
+    rgba(250, 248, 245, 0) 100%
+  );
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+/* Section spacing */
+.section-spacing {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
-.App-link {
-    color: #61dafb;
+@media (min-width: 768px) {
+  .section-spacing {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+/* Image overlays */
+.image-overlay {
+  position: relative;
+}
+
+.image-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(45, 62, 54, 0.1) 0%,
+    rgba(45, 62, 54, 0.3) 100%
+  );
+  pointer-events: none;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: box-shadow 400ms ease, transform 400ms ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 20px 40px rgba(45, 62, 54, 0.1);
+  transform: translateY(-4px);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #2D3E36;
+  color: #FAF8F5;
+  padding: 1rem 2rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: background-color 300ms ease, transform 200ms ease;
+}
+
+.btn-primary:hover {
+  background-color: #3D4E46;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #2D3E36;
+  padding: 1rem 2rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid #2D3E36;
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+.btn-secondary:hover {
+  background-color: #2D3E36;
+  color: #FAF8F5;
+}
+
+/* Form inputs */
+.input-field {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #B8C5C5;
+  padding: 1rem 0;
+  font-size: 1rem;
+  color: #2D3E36;
+  transition: border-color 300ms ease;
+  width: 100%;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #2D3E36;
+}
+
+.input-field::placeholder {
+  color: #7D8F7D;
+}
+
+/* Vertical text */
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
