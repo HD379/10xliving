@@ -96,17 +96,15 @@ const AvailabilityPage = () => {
                 className="reveal opacity-0"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="relative">
-                  <span className="font-display text-8xl text-[#7D8F7D]/20">
+                <div className="mb-6">
+                  <span className="font-display text-7xl text-[#7D8F7D]/30 block leading-none">
                     {step.step}
                   </span>
-                  <div className="absolute top-1/2 -translate-y-1/2">
-                    <h3 className="font-display text-2xl text-[#FAF8F5]">
-                      {step.title}
-                    </h3>
-                  </div>
+                  <h3 className="font-display text-2xl text-[#FAF8F5] mt-2">
+                    {step.title}
+                  </h3>
                 </div>
-                <p className="text-[#B8C5C5] mt-4 leading-relaxed">
+                <p className="text-[#B8C5C5] leading-relaxed">
                   {step.description}
                 </p>
               </div>
