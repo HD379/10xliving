@@ -40,6 +40,10 @@ code {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+.font-logo-number {
+  font-family: 'EB Garamond', Georgia, serif;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
