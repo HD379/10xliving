@@ -47,14 +47,14 @@ const HomePage = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-          <h1 className="text-6xl md:text-8xl text-[#FAF8F5] tracking-wide mb-4 reveal opacity-0">
+          <h1 className="text-6xl md:text-8xl text-[#FAF8F5] tracking-wide mb-4 reveal opacity-0 drop-shadow-[0_4px_20px_rgba(0,0,0,0.4)]">
             <span className="font-logo-number">10</span>
             <span className="font-display"> X Living</span>
           </h1>
-          <p className="font-display text-2xl md:text-3xl text-[#E8E2D7] italic mb-8 reveal opacity-0 animate-delay-100">
+          <p className="font-display text-2xl md:text-3xl text-[#E8E2D7] italic mb-8 reveal opacity-0 animate-delay-100 drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
             {heroContent.subtitle}
           </p>
-          <p className="text-lg text-[#E8E2D7]/90 max-w-2xl mx-auto leading-relaxed reveal opacity-0 animate-delay-200">
+          <p className="text-lg text-[#FAF8F5] max-w-2xl mx-auto leading-relaxed reveal opacity-0 animate-delay-200 drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
             {heroContent.description}
           </p>
           <Link
