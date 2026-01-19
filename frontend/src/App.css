@@ -4,6 +4,24 @@
   min-height: 100vh;
 }
 
+/* Hide Made with Emergent badge */
+#emergent-badge,
+[href*="emergent.sh"],
+a[href*="emergent-badge"],
+div[class*="emergent"],
+[style*="Made with Emergent"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Target the specific badge that appears in bottom right */
+body > a[target="_blank"][href*="emergent"],
+body > div:last-child:not(.App) {
+  display: none !important;
+}
+
 /* Hero section styles */
 .hero-gradient {
   background: linear-gradient(
