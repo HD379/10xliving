@@ -34,9 +34,10 @@ export const Header = () => {
           {/* Logo */}
           <Link
             to="/"
-            className="font-display text-2xl tracking-wide text-[#2D3E36] hover:opacity-70 transition-opacity duration-300"
+            className="text-2xl tracking-wide text-[#2D3E36] hover:opacity-70 transition-opacity duration-300"
           >
-            {siteConfig.name}
+            <span className="font-logo-number">10</span>
+            <span className="font-display"> X Living</span>
           </Link>
 
           {/* Desktop Navigation */}
