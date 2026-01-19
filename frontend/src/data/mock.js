@@ -57,7 +57,7 @@ export const communityContent = {
     {
       title: "Natural Hot Springs",
       description: "Therapeutic geothermal waters for relaxation and wellness, a gift from Costa Rica's volcanic landscape.",
-      image: "https://images.pexels.com/photos/32847246/pexels-photo-32847246.jpeg"
+      image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/6ftm33ww_Close%20up%20photo%20of%205%20domes%20with%20hot%20spring.jpeg"
     },
     {
       title: "Community Spaces",
