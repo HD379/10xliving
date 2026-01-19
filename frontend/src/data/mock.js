@@ -139,7 +139,7 @@ export const masterPlanContent = {
       features: ["Hot springs", "Walking trails", "Wildlife corridors", "Native plantings"]
     }
   ],
-  image: "https://images.pexels.com/photos/10322825/pexels-photo-10322825.jpeg"
+  image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/b5tavtdt_Zoomed%20out%20photo%20of%20the%205%20domes%20with%20main%20office%20house%20in%20the%20middle.jpeg"
 };
 
 export const availabilityContent = {
