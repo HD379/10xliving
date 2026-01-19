@@ -47,8 +47,9 @@ const HomePage = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-          <h1 className="font-display text-6xl md:text-8xl text-[#FAF8F5] tracking-wide mb-4 reveal opacity-0">
-            {heroContent.title}
+          <h1 className="text-6xl md:text-8xl text-[#FAF8F5] tracking-wide mb-4 reveal opacity-0">
+            <span className="font-logo-number">10</span>
+            <span className="font-display"> X Living</span>
           </h1>
           <p className="font-display text-2xl md:text-3xl text-[#E8E2D7] italic mb-8 reveal opacity-0 animate-delay-100">
             {heroContent.subtitle}
