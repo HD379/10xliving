@@ -40,7 +40,7 @@ const HomePage = () => {
           <img
             src={heroContent.image}
             alt="Costa Rica landscape"
-            className="w-full h-full object-cover object-bottom"
+            className="w-full h-full object-cover object-[center_30%]"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#2D3E36]/30 via-[#2D3E36]/20 to-[#2D3E36]/50" />
         </div>
