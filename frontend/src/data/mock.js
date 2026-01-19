@@ -102,7 +102,7 @@ export const sustainableContent = {
       title: "Dome Architecture",
       description: "Geodesic dome homes offer exceptional structural integrity, natural temperature regulation, and harmonious integration with the landscape.",
       icon: "Home",
-      image: "https://images.pexels.com/photos/35509775/pexels-photo-35509775.jpeg"
+      image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/xohhfb69_Photo%20of%20an%20individual%20dome%20home.jpeg"
     }
   ],
   stats: [
