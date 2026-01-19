@@ -11,9 +11,10 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <Link
               to="/"
-              className="font-display text-3xl text-[#FAF8F5] tracking-wide"
+              className="text-3xl text-[#FAF8F5] tracking-wide"
             >
-              {siteConfig.name}
+              <span className="font-logo-number">10</span>
+              <span className="font-display"> X Living</span>
             </Link>
             <p className="mt-6 text-[#B8C5C5] max-w-md leading-relaxed">
               {footerContent.tagline}
