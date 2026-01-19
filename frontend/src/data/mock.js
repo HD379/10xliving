@@ -11,7 +11,7 @@ export const heroContent = {
   subtitle: "Costa Rica",
   headline: "Where Sustainable Living Meets Natural Beauty",
   description: "A thoughtfully designed residential community in Costa Rica, where dome homes, renewable energy, and intentional living create harmony with nature.",
-  image: "https://images.pexels.com/photos/17667642/pexels-photo-17667642.jpeg"
+  image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/b5tavtdt_Zoomed%20out%20photo%20of%20the%205%20domes%20with%20main%20office%20house%20in%20the%20middle.jpeg"
 };
 
 export const visionContent = {
