@@ -36,37 +36,36 @@ const SensesPage = () => {
         </div>
       </section>
 
-      {/* Image */}
-      <section className="bg-[#FAF8F5] pb-16">
+      {/* Image and Text Side by Side */}
+      <section className="bg-[#FAF8F5] pb-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="reveal opacity-0">
-            <img
-              src={sensesContent.image}
-              alt="10 X Senses"
-              className="w-full max-w-4xl mx-auto"
-            />
-          </div>
-        </div>
-      </section>
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+            {/* Image on Left */}
+            <div className="reveal opacity-0">
+              <img
+                src={sensesContent.image}
+                alt="10 X Senses - Honoring all five senses"
+                className="w-full max-w-lg"
+              />
+            </div>
 
-      {/* Senses List */}
-      <section className="section-spacing bg-[#E8E2D7]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-12">
-          <div className="space-y-12">
-            {sensesContent.senses.map((sense, index) => (
-              <div
-                key={sense.name}
-                className="reveal opacity-0"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <h3 className="font-display text-3xl text-[#2D3E36]">
-                  {sense.name}
-                </h3>
-                <p className="text-lg text-[#5A6B5A] mt-4 leading-relaxed">
-                  {sense.description}
-                </p>
-              </div>
-            ))}
+            {/* Text on Right */}
+            <div className="space-y-8">
+              {sensesContent.senses.map((sense, index) => (
+                <div
+                  key={sense.name}
+                  className="reveal opacity-0"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <h3 className="font-display text-2xl text-[#2D3E36]">
+                    {sense.name}
+                  </h3>
+                  <p className="text-[#5A6B5A] mt-2 leading-relaxed">
+                    {sense.description}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
