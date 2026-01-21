@@ -48,21 +48,32 @@ export const communityContent = {
   title: "Community & Lifestyle",
   headline: "Intentional Living, Naturally",
   intro: "Life at 10 X Living centers on connection—with neighbors, with nature, and with a shared vision of sustainable living.",
-  features: [
+  mainImage: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/b5tavtdt_Zoomed%20out%20photo%20of%20the%205%20domes%20with%20main%20office%20house%20in%20the%20middle.jpeg",
+  domeArchitecture: {
+    title: "Dome Architecture",
+    description: "Geodesic dome homes offer exceptional structural integrity, natural temperature regulation, and harmonious integration with the landscape.",
+    image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/xohhfb69_Photo%20of%20an%20individual%20dome%20home.jpeg"
+  },
+  zones: [
     {
-      title: "Shared Gardens",
-      description: "Organic vegetable gardens cultivated collectively, providing fresh produce and fostering community bonds.",
-      image: "https://images.pexels.com/photos/18276815/pexels-photo-18276815.jpeg"
+      name: "Residential Zone",
+      description: "Dome homes positioned for privacy, views, and optimal solar orientation.",
+      features: ["Individual dome plots", "Private outdoor spaces", "Underground utility connections"]
     },
     {
-      title: "Natural Hot Springs",
-      description: "Therapeutic geothermal waters for relaxation and wellness, a gift from Costa Rica's volcanic landscape.",
-      image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/6ftm33ww_Close%20up%20photo%20of%205%20domes%20with%20hot%20spring.jpeg"
+      name: "Central Commons",
+      description: "The heart of the community, housing shared facilities and the main solar installation.",
+      features: ["Main building with solar array", "Community kitchen", "Gathering spaces", "Battery storage"]
     },
     {
-      title: "Community Spaces",
-      description: "Thoughtfully designed gathering areas for meals, celebrations, and quiet contemplation.",
-      image: "https://images.pexels.com/photos/2815150/pexels-photo-2815150.jpeg"
+      name: "Agricultural Zone",
+      description: "Productive gardens and orchards cultivated using organic and biodynamic methods.",
+      features: ["Vegetable gardens", "Fruit orchards", "Composting facilities", "Tool storage"]
+    },
+    {
+      name: "Natural Areas",
+      description: "Preserved wilderness, walking trails, and the natural hot springs.",
+      features: ["Hot springs", "Walking trails", "Wildlife corridors", "Native plantings"]
     }
   ],
   lifestyle: [
