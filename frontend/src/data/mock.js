@@ -90,7 +90,9 @@ export const cultureContent = {
   title: "10 X Culture",
   headline: "Dimensions of Well-Being",
   intro: "The following is an outline of one version of an ideal micro-culture. This Costa Rican community tips its hat toward this ideal and leans in this direction wherever feasible.",
+  hexagonImage: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/xucdzec0_Shape4%20copy.png",
   dimensions: [
+    // Row 1
     { name: "Roles", url: "https://www.10xliving.org/roles" },
     { name: "Waste", url: "https://www.10xliving.org/waste" },
     { name: "Animals", url: "https://www.10xliving.org/animals" },
@@ -98,18 +100,32 @@ export const cultureContent = {
     { name: "Education", url: "https://www.10xliving.org/education" },
     { name: "Justice", url: "https://www.10xliving.org/justice" },
     { name: "Nature", url: "https://www.10xliving.org/nature" },
+    // Row 2
     { name: "Governance", url: "https://www.10xliving.org/governance" },
     { name: "Spirituality", url: "https://www.10xliving.org/spirituality" },
     { name: "Connection", url: "https://www.10xliving.org/connection" },
     { name: "Parenting", url: "https://www.10xliving.org/parenting" },
     { name: "Relationships", url: "https://www.10xliving.org/relationships" },
     { name: "Creativity", url: "https://www.10xliving.org/creativity" },
+    { name: "Work", url: "https://www.10xliving.org/work" },
+    { name: "Play", url: "https://www.10xliving.org/play" },
+    // Row 3
+    { name: "Health", url: "https://www.10xliving.org/health" },
+    { name: "Movement", url: "https://www.10xliving.org/movement" },
     { name: "Dance", url: "https://www.10xliving.org/dance" },
     { name: "Gender", url: "https://www.10xliving.org/gender-balanced" },
     { name: "Gardens", url: "https://www.10xliving.org/butterfly-gardens" },
     { name: "Self-Defense", url: "https://www.10xliving.org/self-defense" },
     { name: "Diet", url: "https://www.10xliving.org/diet" },
-    { name: "Yoga", url: "https://www.10xliving.org/yoga" }
+    // Row 4
+    { name: "Yoga", url: "https://www.10xliving.org/yoga" },
+    { name: "Music", url: "https://www.10xliving.org/music" },
+    { name: "Art", url: "https://www.10xliving.org/art" },
+    { name: "Stories", url: "https://www.10xliving.org/stories" },
+    { name: "Aging", url: "https://www.10xliving.org/aging" },
+    { name: "Death", url: "https://www.10xliving.org/death" },
+    { name: "Space", url: "https://www.10xliving.org/space" },
+    { name: "Time", url: "https://www.10xliving.org/time" }
   ]
 };
 
