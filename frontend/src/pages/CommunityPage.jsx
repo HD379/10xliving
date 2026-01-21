@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Check } from 'lucide-react';
+import { Check, Home } from 'lucide-react';
 import { communityContent } from '../data/mock';
 
 const CommunityPage = () => {
@@ -40,35 +40,78 @@ const CommunityPage = () => {
         </div>
       </section>
 
-      {/* Features */}
+      {/* Main Community Image */}
       <section className="bg-[#FAF8F5] pb-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          {communityContent.features.map((feature, index) => (
-            <div
-              key={feature.title}
-              className={`grid lg:grid-cols-2 gap-12 lg:gap-24 items-center py-16 ${
-                index !== communityContent.features.length - 1 ? 'border-b border-[#E8E2D7]' : ''
-              }`}
-            >
-              <div className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
-                <div className="reveal opacity-0 overflow-hidden">
-                  <img
-                    src={feature.image}
-                    alt={feature.title}
-                    className="w-full aspect-[4/3] object-cover image-hover"
-                  />
-                </div>
+          <div className="reveal opacity-0">
+            <img
+              src={communityContent.mainImage}
+              alt="10 X Living Community Overview"
+              className="w-full aspect-video object-cover object-[center_30%]"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Dome Architecture */}
+      <section className="section-spacing bg-[#E8E2D7]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+            <div className="reveal opacity-0">
+              <div className="w-16 h-16 rounded-full bg-[#FAF8F5] flex items-center justify-center mb-6">
+                <Home size={28} className="text-[#5A6B5A]" />
               </div>
-              <div className={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
-                <h3 className="font-display text-4xl text-[#2D3E36] reveal opacity-0">
-                  {feature.title}
-                </h3>
-                <p className="text-lg text-[#5A6B5A] mt-6 leading-relaxed reveal opacity-0 animate-delay-100">
-                  {feature.description}
-                </p>
-              </div>
+              <h2 className="font-display text-4xl md:text-5xl text-[#2D3E36]">
+                {communityContent.domeArchitecture.title}
+              </h2>
+              <p className="text-lg text-[#5A6B5A] mt-6 leading-relaxed">
+                {communityContent.domeArchitecture.description}
+              </p>
             </div>
-          ))}
+            <div className="reveal opacity-0 animate-delay-100">
+              <img
+                src={communityContent.domeArchitecture.image}
+                alt="Dome Home"
+                className="w-full aspect-[4/3] object-cover image-hover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Community Zones */}
+      <section className="section-spacing bg-[#FAF8F5]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <h2 className="font-display text-4xl text-[#2D3E36] mb-16 reveal opacity-0">
+            Community Zones
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {communityContent.zones.map((zone, index) => (
+              <div
+                key={zone.name}
+                className="bg-[#E8E2D7] p-10 card-hover reveal opacity-0"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <h3 className="font-display text-3xl text-[#2D3E36]">
+                  {zone.name}
+                </h3>
+                <p className="text-[#5A6B5A] mt-4 leading-relaxed">
+                  {zone.description}
+                </p>
+                <ul className="mt-6 space-y-3">
+                  {zone.features.map((feature) => (
+                    <li key={feature} className="flex items-center gap-3">
+                      <div className="w-5 h-5 rounded-full bg-[#7D8F7D] flex items-center justify-center flex-shrink-0">
+                        <Check size={12} className="text-[#FAF8F5]" />
+                      </div>
+                      <span className="text-[#5A6B5A]">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
