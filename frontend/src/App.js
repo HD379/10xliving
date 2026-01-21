@@ -11,20 +11,22 @@ import { Footer } from "./components/layout/Footer";
 import HomePage from "./pages/HomePage";
 import VisionPage from "./pages/VisionPage";
 import CommunityPage from "./pages/CommunityPage";
-import AvailabilityPage from "./pages/AvailabilityPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+
+// Scroll to top component
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/vision" element={<VisionPage />} />
           <Route path="/community" element={<CommunityPage />} />
-          <Route path="/availability" element={<AvailabilityPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
