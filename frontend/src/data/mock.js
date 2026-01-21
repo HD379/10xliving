@@ -246,8 +246,6 @@ export const navigationItems = [
   { name: "Home", path: "/" },
   { name: "Vision", path: "/vision" },
   { name: "Community", path: "/community" },
-  { name: "Sustainable Design", path: "/sustainable-design" },
-  { name: "Master Plan", path: "/master-plan" },
   { name: "Availability", path: "/availability" },
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" }
