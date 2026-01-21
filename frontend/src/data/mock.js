@@ -129,6 +129,34 @@ export const cultureContent = {
   ]
 };
 
+export const sensesContent = {
+  title: "10 X Senses",
+  headline: "Honoring All Five Senses",
+  image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/cd5nyg8v_WhatsApp%20Image%202026-01-21%20at%2012.16.00%20AM.jpeg",
+  senses: [
+    {
+      name: "Sound",
+      description: "All machinery is electric to eliminate gas-powered equipment. The domes provide sound insulation to minimize noise pollution. The site has been selected for its quiet location."
+    },
+    {
+      name: "Touch",
+      description: "Community animal interaction is supported and encouraged."
+    },
+    {
+      name: "Smell",
+      description: "Synthetic fragrances are avoided. Natural scents and essential oils only."
+    },
+    {
+      name: "Taste",
+      description: "On-site organic food."
+    },
+    {
+      name: "Sight",
+      description: "Beautiful domes and gardens."
+    }
+  ]
+};
+
 export const aboutContent = {
   title: "About",
   headline: "The Story Behind 10 X Living",
