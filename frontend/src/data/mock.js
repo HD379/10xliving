@@ -177,7 +177,8 @@ export const navigationItems = [
   { name: "Home", path: "/" },
   { name: "Vision", path: "/vision" },
   { name: "Community", path: "/community" },
-  { name: "Culture", path: "/culture" },
+  { name: "10 X Culture", path: "https://10xliving.org/culture", external: true },
+  { name: "10 X Senses", path: "/senses" },
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" }
 ];
