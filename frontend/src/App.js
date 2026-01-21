@@ -11,6 +11,7 @@ import { Footer } from "./components/layout/Footer";
 import HomePage from "./pages/HomePage";
 import VisionPage from "./pages/VisionPage";
 import CommunityPage from "./pages/CommunityPage";
+import CulturePage from "./pages/CulturePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/vision" element={<VisionPage />} />
           <Route path="/community" element={<CommunityPage />} />
+          <Route path="/culture" element={<CulturePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
