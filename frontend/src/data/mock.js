@@ -132,7 +132,7 @@ export const cultureContent = {
 export const sensesContent = {
   title: "10 X Senses",
   headline: "Honoring All Five Senses",
-  image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/cd5nyg8v_WhatsApp%20Image%202026-01-21%20at%2012.16.00%20AM.jpeg",
+  image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/pdhizd5r_10%20X%20Senses.png",
   senses: [
     {
       name: "Sound",
