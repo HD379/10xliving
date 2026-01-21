@@ -114,36 +114,6 @@ const CommunityPage = () => {
           </div>
         </div>
       </section>
-
-      {/* Lifestyle */}
-      <section className="section-spacing bg-[#2D3E36]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid lg:grid-cols-2 gap-16">
-            <div>
-              <h2 className="font-display text-4xl md:text-5xl text-[#FAF8F5] reveal opacity-0">
-                Life at 10 X Living
-              </h2>
-              <p className="text-[#B8C5C5] mt-6 text-lg leading-relaxed reveal opacity-0 animate-delay-100">
-                Our community is designed to support a life of intention, connection, and sustainability.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {communityContent.lifestyle.map((item, index) => (
-                <div
-                  key={item}
-                  className="flex items-start gap-4 reveal opacity-0"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  <div className="w-6 h-6 rounded-full bg-[#7D8F7D] flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <Check size={14} className="text-[#FAF8F5]" />
-                  </div>
-                  <span className="text-[#E8E2D7]">{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
   );
 };
