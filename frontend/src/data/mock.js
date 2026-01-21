@@ -41,7 +41,7 @@ export const visionContent = {
       description: "Working with the land, not against it"
     }
   ],
-  image: "https://images.pexels.com/photos/34519404/pexels-photo-34519404.jpeg"
+  image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/ftlveior_lake.jpg"
 };
 
 export const communityContent = {
