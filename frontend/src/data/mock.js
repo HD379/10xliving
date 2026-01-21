@@ -129,6 +129,97 @@ export const cultureContent = {
   ]
 };
 
+export const pricingContent = {
+  title: "Pricing",
+  headline: "Investment & Community Fees",
+  intro: "10 X Living is a purpose-driven wellbeing community in Costa Rica, designed for individuals and couples who want to live sustainably while contributing to a larger vision.",
+  subIntro: "The community consists of five private geodesic domes, available for single or double occupancy. Each dome qualifies toward a Costa Rican investment residency visa.",
+  investmentOptions: {
+    title: "Investment Options (One-Time)",
+    options: [
+      { name: "Single Occupancy Dome", price: "$150,000 USD" },
+      { name: "Double Occupancy Dome", price: "$175,000 USD" }
+    ],
+    note: "This one-time investment secures your private dome and your place in the 10 X Living community."
+  },
+  monthlyFees: {
+    title: "Monthly Land, Maintenance & Community Fees",
+    sections: [
+      {
+        name: "Land & Maintenance Fee",
+        prices: [
+          "$550 per person / month",
+          "$770 per couple / month"
+        ],
+        description: "This fee covers the ongoing care, maintenance, and shared infrastructure of the community.",
+        included: [
+          "One shared Starlink internet terminal (Additional terminals may be added by residents at their own expense)",
+          "One shared electric vehicle with free on-site charging",
+          "Security guard for the property",
+          "Roof and rain maintenance, including any leaks in domes or community buildings",
+          "Air conditioning maintenance",
+          "Appliance maintenance for shared washer, dryer, stove, and refrigerator",
+          "Plumbing and septic system maintenance",
+          "Heated pool equipment maintenance"
+        ]
+      },
+      {
+        name: "Security Contribution",
+        prices: ["$100 per person / month"],
+        description: "This fee supports dedicated on-site property security."
+      }
+    ]
+  },
+  included: {
+    title: "What's Included With Residency",
+    categories: [
+      {
+        name: "Private Infrastructure",
+        items: [
+          "Your own personal geodesic dome",
+          "Solar-powered electricity, designed for low or no maintenance for the first 10 years",
+          "Clean, fresh well water sourced directly from the land",
+          "Perimeter fencing for privacy and safety"
+        ]
+      },
+      {
+        name: "Shared Community Amenities",
+        items: [
+          "Solar-heated hot spring pool using fresh well water",
+          "Shared community kitchen",
+          "Shared community living space",
+          "Shared media room",
+          "Shared office / coworking space",
+          "Shared laundry facilities",
+          "Designated garden areas for growing fruits and vegetables"
+        ]
+      },
+      {
+        name: "Guests & Occupancy",
+        items: [
+          "Domes may be single or double occupancy",
+          "Residents may host one guest at a time, sharing their dome"
+        ]
+      }
+    ]
+  },
+  carbonNegative: {
+    title: "Carbon-Negative Living",
+    description: "Each resident receives a Carbon Negative Certificate through the planting of 1,500 trees per resident.",
+    note: "As a community, all residents of 10 X Living are carbon negative by design."
+  },
+  purposeDriven: {
+    title: "A Purpose-Driven Community",
+    intro: "10 X Living is intentionally designed for people who want more than just a place to live.",
+    description: "All residents are selected based on their interest in:",
+    interests: [
+      "Contributing skills, time, and passion",
+      "Supporting sustainability, wellbeing, and meaningful impact"
+    ],
+    commitment: "Each community member commits to a minimum of five hours per week of volunteer contribution, aligned with their skills and interests."
+  }
+};
+
 export const sensesContent = {
   title: "10 X Senses",
   headline: "Honoring All Five Senses",
