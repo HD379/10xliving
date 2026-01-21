@@ -86,115 +86,30 @@ export const communityContent = {
   ]
 };
 
-export const sustainableContent = {
-  title: "Sustainable Design",
-  headline: "Technology in Service of Nature",
-  intro: "Every system at 10 X Living is designed to minimize impact while maximizing quality of life.",
-  systems: [
-    {
-      title: "Centralized Solar Power",
-      description: "A community solar array with battery storage provides clean energy to all residences, housed in our main building for optimal efficiency and maintenance.",
-      icon: "Sun",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxzb2xhciUyMHBhbmVsc3xlbnwwfHx8fDE3Njg4MDM0Mzl8MA&ixlib=rb-4.1.0&q=85"
-    },
-    {
-      title: "Underground Utilities",
-      description: "All power, water, and data infrastructure runs beneath the surface, preserving the natural landscape and protecting systems from weather.",
-      icon: "Layers",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwyfHxzb2xhciUyMHBhbmVsc3xlbnwwfHx8fDE3Njg4MDM0Mzl8MA&ixlib=rb-4.1.0&q=85"
-    },
-    {
-      title: "Water Management",
-      description: "Rainwater harvesting, greywater recycling, and natural filtration systems ensure responsible water use throughout the community.",
-      icon: "Droplets",
-      image: "https://images.pexels.com/photos/12832297/pexels-photo-12832297.jpeg"
-    },
-    {
-      title: "Dome Architecture",
-      description: "Geodesic dome homes offer exceptional structural integrity, natural temperature regulation, and harmonious integration with the landscape.",
-      icon: "Home",
-      image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/xohhfb69_Photo%20of%20an%20individual%20dome%20home.jpeg"
-    }
-  ],
-  stats: [
-    { value: "100%", label: "Renewable Energy" },
-    { value: "Zero", label: "Grid Dependency" },
-    { value: "50%", label: "Water Recycled" },
-    { value: "Minimal", label: "Carbon Footprint" }
-  ]
-};
-
-export const masterPlanContent = {
-  title: "Master Plan",
-  headline: "Thoughtful Layout, Natural Flow",
-  intro: "The site plan respects the natural topography while creating clear zones for private living, community gathering, and agricultural use.",
-  zones: [
-    {
-      name: "Residential Zone",
-      description: "Dome homes positioned for privacy, views, and optimal solar orientation.",
-      features: ["Individual dome plots", "Private outdoor spaces", "Underground utility connections"]
-    },
-    {
-      name: "Central Commons",
-      description: "The heart of the community, housing shared facilities and the main solar installation.",
-      features: ["Main building with solar array", "Community kitchen", "Gathering spaces", "Battery storage"]
-    },
-    {
-      name: "Agricultural Zone",
-      description: "Productive gardens and orchards cultivated using organic and biodynamic methods.",
-      features: ["Vegetable gardens", "Fruit orchards", "Composting facilities", "Tool storage"]
-    },
-    {
-      name: "Natural Areas",
-      description: "Preserved wilderness, walking trails, and the natural hot springs.",
-      features: ["Hot springs", "Walking trails", "Wildlife corridors", "Native plantings"]
-    }
-  ],
-  image: "https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/b5tavtdt_Zoomed%20out%20photo%20of%20the%205%20domes%20with%20main%20office%20house%20in%20the%20middle.jpeg"
-};
-
-export const availabilityContent = {
-  title: "Availability",
-  headline: "Find Your Place",
-  intro: "A limited number of home sites are available for those aligned with our vision of sustainable community living.",
-  categories: [
-    {
-      name: "Hillside Sites",
-      description: "Elevated positions with panoramic views of the surrounding mountains and forest canopy.",
-      status: "Limited availability"
-    },
-    {
-      name: "Garden Sites",
-      description: "Level terrain adjacent to the community gardens, ideal for those passionate about cultivation.",
-      status: "Available"
-    },
-    {
-      name: "Forest Edge Sites",
-      description: "Nestled at the boundary of preserved woodland, offering maximum privacy and nature immersion.",
-      status: "Available"
-    }
-  ],
-  process: [
-    {
-      step: "1",
-      title: "Introduction",
-      description: "Begin with a conversation about your vision and how it aligns with our community values."
-    },
-    {
-      step: "2",
-      title: "Site Visit",
-      description: "Experience the property in person, walk the land, and meet current community members."
-    },
-    {
-      step: "3",
-      title: "Selection",
-      description: "Choose your preferred site and discuss customization options for your dome home."
-    },
-    {
-      step: "4",
-      title: "Welcome",
-      description: "Complete the process and begin your journey as a 10 X Living community member."
-    }
+export const cultureContent = {
+  title: "10 X Culture",
+  headline: "Dimensions of Well-Being",
+  intro: "The following is an outline of one version of an ideal micro-culture. This Costa Rican community tips its hat toward this ideal and leans in this direction wherever feasible.",
+  dimensions: [
+    { name: "Roles", url: "https://www.10xliving.org/roles" },
+    { name: "Waste", url: "https://www.10xliving.org/waste" },
+    { name: "Animals", url: "https://www.10xliving.org/animals" },
+    { name: "Money", url: "https://www.10xliving.org/money-and-mediums-of-exchange" },
+    { name: "Education", url: "https://www.10xliving.org/education" },
+    { name: "Justice", url: "https://www.10xliving.org/justice" },
+    { name: "Nature", url: "https://www.10xliving.org/nature" },
+    { name: "Governance", url: "https://www.10xliving.org/governance" },
+    { name: "Spirituality", url: "https://www.10xliving.org/spirituality" },
+    { name: "Connection", url: "https://www.10xliving.org/connection" },
+    { name: "Parenting", url: "https://www.10xliving.org/parenting" },
+    { name: "Relationships", url: "https://www.10xliving.org/relationships" },
+    { name: "Creativity", url: "https://www.10xliving.org/creativity" },
+    { name: "Dance", url: "https://www.10xliving.org/dance" },
+    { name: "Gender", url: "https://www.10xliving.org/gender-balanced" },
+    { name: "Gardens", url: "https://www.10xliving.org/butterfly-gardens" },
+    { name: "Self-Defense", url: "https://www.10xliving.org/self-defense" },
+    { name: "Diet", url: "https://www.10xliving.org/diet" },
+    { name: "Yoga", url: "https://www.10xliving.org/yoga" }
   ]
 };
 
@@ -246,6 +161,7 @@ export const navigationItems = [
   { name: "Home", path: "/" },
   { name: "Vision", path: "/vision" },
   { name: "Community", path: "/community" },
+  { name: "Culture", path: "/culture" },
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" }
 ];
