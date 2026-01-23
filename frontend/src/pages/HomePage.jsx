@@ -76,37 +76,19 @@ const HomePage = () => {
         </button>
       </section>
 
-      {/* Introduction Section */}
+      {/* Video Section */}
       <section className="section-spacing bg-[#FAF8F5]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-            <div>
-              <span className="text-xs uppercase tracking-widest text-[#7D8F7D] reveal opacity-0">
-                Our Vision
-              </span>
-              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-[#2D3E36] mt-4 leading-tight reveal opacity-0 animate-delay-100">
-                {visionContent.headline}
-              </h2>
-              <p className="text-lg text-[#5A6B5A] mt-8 leading-relaxed reveal opacity-0 animate-delay-200">
-                {visionContent.intro}
-              </p>
-              <p className="text-[#5A6B5A] mt-6 leading-relaxed reveal opacity-0 animate-delay-300">
-                {visionContent.paragraphs[0]}
-              </p>
-              <Link
-                to="/vision"
-                className="inline-flex items-center gap-2 mt-8 text-[#2D3E36] font-medium link-underline reveal opacity-0 animate-delay-400"
-              >
-                Read more about our vision
-                <ArrowRight size={16} />
-              </Link>
-            </div>
-            <div className="reveal opacity-0 animate-delay-200">
-              <div className="relative overflow-hidden">
-                <img
-                  src={visionContent.image}
-                  alt="Costa Rica nature"
-                  className="w-full aspect-[4/5] object-cover image-hover"
+          <div className="max-w-5xl mx-auto">
+            <div className="reveal opacity-0">
+              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/frHQdzSNn8A"
+                  title="10 X Living"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
                 />
               </div>
             </div>
