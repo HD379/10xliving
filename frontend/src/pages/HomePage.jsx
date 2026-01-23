@@ -84,7 +84,7 @@ const HomePage = () => {
               <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                 <iframe
                   className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.youtube.com/embed/frHQdzSNn8A"
+                  src="https://www.youtube.com/embed/05_3eADCLvY"
                   title="10 X Living"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
