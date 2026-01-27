@@ -27,7 +27,7 @@ const VisionPage = () => {
         <img
           src="https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/g8a52der_Wide_banner_showcasing_lush_tropical_forest_in_Cos-1769174462181.png"
           alt="Costa Rica tropical forest"
-          className="w-full h-36 md:h-44 lg:h-48 object-cover object-bottom"
+          className="w-full h-44 md:h-56 lg:h-60 object-cover object-[center_85%]"
         />
       </section>
 
