@@ -27,12 +27,12 @@ const VisionPage = () => {
         <img
           src="https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/g8a52der_Wide_banner_showcasing_lush_tropical_forest_in_Cos-1769174462181.png"
           alt="Costa Rica tropical forest"
-          className="w-full h-24 md:h-32 lg:h-36 object-cover object-center"
+          className="w-full h-36 md:h-44 lg:h-48 object-cover object-center"
         />
       </section>
 
       {/* Hero */}
-      <section className="section-spacing bg-[#FAF8F5]">
+      <section className="pt-12 pb-24 bg-[#FAF8F5]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <span className="text-xs uppercase tracking-widest text-[#7D8F7D] reveal opacity-0">
