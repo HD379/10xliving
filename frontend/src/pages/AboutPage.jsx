@@ -22,8 +22,18 @@ const AboutPage = () => {
 
   return (
     <main className="pt-24">
+      {/* Banner Image */}
+      <section className="w-full overflow-hidden">
+        <img
+          src="https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/x3v81q27_Water%202.jpg"
+          alt="Water"
+          className="w-full object-cover object-[center_85%]"
+          style={{ height: '180px' }}
+        />
+      </section>
+
       {/* Hero */}
-      <section className="section-spacing bg-[#FAF8F5]">
+      <section className="pt-24 pb-24 bg-[#FAF8F5]">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <span className="text-xs uppercase tracking-widest text-[#7D8F7D] reveal opacity-0">
