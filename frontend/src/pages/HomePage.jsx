@@ -47,9 +47,8 @@ const HomePage = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-          <h1 className="text-6xl md:text-8xl text-[#FAF8F5] tracking-wide mb-4 reveal opacity-0" style={{ textShadow: '0 4px 30px rgba(0,0,0,0.7), 0 2px 10px rgba(0,0,0,0.5)' }}>
-            <span className="font-logo-number">10</span>
-            <span className="font-display"> X Living</span>
+          <h1 className="text-6xl md:text-8xl text-[#FAF8F5] tracking-wide mb-4 reveal opacity-0" style={{ textShadow: '0 4px 30px rgba(0,0,0,0.7), 0 2px 10px rgba(0,0,0,0.5)', fontFamily: '"Times New Roman", Times, serif' }}>
+            10 X Living
           </h1>
           <p className="font-display text-2xl md:text-3xl text-[#FAF8F5] italic mb-8 reveal opacity-0 animate-delay-100" style={{ textShadow: '0 3px 20px rgba(0,0,0,0.7), 0 1px 8px rgba(0,0,0,0.5)' }}>
             {heroContent.subtitle}
