@@ -108,7 +108,7 @@ export const Header = () => {
           isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <div className="flex flex-col items-center justify-center h-full gap-8 px-6" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
+        <div className="flex flex-col items-center justify-center h-full gap-8 px-6">
           {navigationItems.map((item) => 
             renderNavLink(
               item,
