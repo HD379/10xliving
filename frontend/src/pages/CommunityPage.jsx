@@ -28,7 +28,7 @@ const CommunityPage = () => {
         <img
           src="https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/12nvdf6b_cloudy-sky-beautiful-rainforest-lake.jpg"
           alt="Costa Rica rainforest lake"
-          className="w-full object-cover object-[center_60%]"
+          className="w-full object-cover object-[center_70%]"
           style={{ height: '180px' }}
         />
       </section>
