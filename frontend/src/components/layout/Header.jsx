@@ -25,7 +25,7 @@ export const Header = () => {
     if (name.startsWith('10 X')) {
       return (
         <>
-          <span className="font-logo-number">10</span>
+          <span className="font-logo-number" style={{ fontSize: 'inherit' }}>10</span>
           <span>{name.slice(2)}</span>
         </>
       );
