@@ -40,7 +40,7 @@ const AboutPage = () => {
               {aboutContent.title}
             </span>
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-[#2D3E36] mt-4 leading-tight reveal opacity-0 animate-delay-100">
-              The Story Behind <span className="font-logo-number">10</span> X Living
+              The Story Behind <span style={{ fontFamily: 'Garamond, "EB Garamond", Georgia, serif' }}>10</span> X Living
             </h1>
             <p className="text-xl text-[#5A6B5A] mt-8 leading-relaxed reveal opacity-0 animate-delay-200">
               {aboutContent.intro}
