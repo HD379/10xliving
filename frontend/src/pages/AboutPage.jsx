@@ -27,7 +27,7 @@ const AboutPage = () => {
         <img
           src="https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/x3v81q27_Water%202.jpg"
           alt="Water"
-          className="w-full object-cover object-[center_65%]"
+          className="w-full object-cover object-[center_55%]"
           style={{ height: '180px' }}
         />
       </section>
