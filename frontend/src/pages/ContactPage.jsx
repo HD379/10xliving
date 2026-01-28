@@ -64,7 +64,7 @@ const ContactPage = () => {
         <img
           src="https://customer-assets.emergentagent.com/job_6e992db2-663b-4e0c-b681-6f4fb21a5a30/artifacts/4sy0bmdq_water%201.jpg"
           alt="Water"
-          className="w-full object-cover object-[center_85%]"
+          className="w-full object-cover object-[center_95%]"
           style={{ height: '180px' }}
         />
       </section>
