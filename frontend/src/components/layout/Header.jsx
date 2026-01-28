@@ -21,6 +21,18 @@ export const Header = () => {
     setIsMobileMenuOpen(false);
   }, [location]);
 
+  const formatNavName = (name) => {
+    if (name.startsWith('10 X')) {
+      return (
+        <>
+          <span className="font-logo-number">10</span>
+          <span>{name.slice(2)}</span>
+        </>
+      );
+    }
+    return name;
+  };
+
   const renderNavLink = (item, className) => {
     if (item.external) {
       return (
@@ -31,7 +43,7 @@ export const Header = () => {
           rel="noopener noreferrer"
           className={className}
         >
-          {item.name}
+          {formatNavName(item.name)}
         </a>
       );
     }
@@ -41,7 +53,7 @@ export const Header = () => {
         to={item.path}
         className={className}
       >
-        {item.name}
+        {formatNavName(item.name)}
       </Link>
     );
   };
