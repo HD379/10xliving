@@ -78,7 +78,7 @@ export const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-8" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
+          <div className="hidden lg:flex items-center gap-8">
             {navigationItems.slice(1).map((item) => 
               renderNavLink(
                 item,
