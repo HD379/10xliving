@@ -80,14 +80,14 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <div className="reveal opacity-0">
-              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+              <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
                 <iframe
-                  className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.youtube.com/embed/05_3eADCLvY"
-                  title="10 X Living"
+                  src="https://player.vimeo.com/video/1161177248?h=aa2278cb90&badge=0&autopause=0&player_id=0&app_id=58479"
                   frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                  title="Intro Video to Costa Rican Living"
                 />
               </div>
             </div>
